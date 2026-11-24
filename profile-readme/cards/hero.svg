@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Thiyagu — AI Engineer  ·  Full-Stack Developer  ·  Founder">
+<title>Thiyagu — AI Engineer  ·  Full-Stack Developer  ·  Founder</title>
+<style>
+
+.d { font-family:'Display', Georgia, 'Times New Roman', serif; }
+.b { font-family:'Body', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+
+@keyframes fadeUp { from { opacity:0; transform:translateY(10px) } to { opacity:1; transform:none } }
+@keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
+@keyframes grow   { from { transform:scaleY(0) } to { transform:scaleY(1) } }
+@keyframes pop    { from { opacity:0; transform:scale(.4) } to { opacity:1; transform:none } }
+@keyframes blink  { 50% { opacity:0 } }
+@keyframes draw   { to { stroke-dashoffset:0 } }
+
+.name { animation: fadeUp .7s ease-out .1s both; }
+.tag  { animation: fadeUp .6s ease-out .45s both; }
+.sub  { animation: fadeUp .6s ease-out .7s both; }
+.line { stroke-dasharray:240; stroke-dashoffset:240; animation: draw .8s ease-out .35s forwards; }
+.cur  { animation: blink 1s steps(1) infinite; }
+.dot  { animation: pop .4s ease-out both; transform-box:fill-box; transform-origin:center; }
+
+@media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
+</style>
+
+<defs>
+  <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="900" y2="0">
+    <stop offset="0" stop-color="#e6ebff"/>
+    <stop offset=".42" stop-color="#e6ebff"/>
+    <stop offset=".5" stop-color="#9ad0ff"/>
+    <stop offset=".58" stop-color="#e6ebff"/>
+    <stop offset="1" stop-color="#e6ebff"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="-900 0" to="900 0" dur="3.2s" begin="0.4s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="85%" cy="0%" r="70%">
+    <stop offset="0" stop-color="#4f8cff" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#4f8cff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="900" height="220" rx="18" fill="#0b1020"/>
+<rect width="900" height="220" rx="18" fill="url(#glow)"/>
+<rect x="0.5" y="0.5" width="899" height="219" rx="18" fill="none" stroke="#1f2a4d"/>
+<circle class="dot" style="animation-delay:0.80s" cx="820" cy="40" r="3" fill="#1d3b7a"/><circle class="dot" style="animation-delay:0.86s" cx="836" cy="40" r="3" fill="#2a5bc0"/><circle class="dot" style="animation-delay:0.92s" cx="852" cy="40" r="3" fill="#4f8cff"/><circle class="dot" style="animation-delay:0.98s" cx="820" cy="56" r="3" fill="#9ad0ff"/><circle class="dot" style="animation-delay:1.04s" cx="836" cy="56" r="3" fill="#1d3b7a"/><circle class="dot" style="animation-delay:1.10s" cx="852" cy="56" r="3" fill="#2a5bc0"/><circle class="dot" style="animation-delay:1.16s" cx="820" cy="72" r="3" fill="#4f8cff"/><circle class="dot" style="animation-delay:1.22s" cx="836" cy="72" r="3" fill="#9ad0ff"/><circle class="dot" style="animation-delay:1.28s" cx="852" cy="72" r="3" fill="#1d3b7a"/>
+<text class="d name" x="48" y="104" font-size="64" fill="url(#shine)">Hi, I'm Thiyagu</text>
+<line class="line" x1="50" y1="126" x2="290" y2="126" stroke="#4f8cff" stroke-width="3" stroke-linecap="round"/>
+<text class="b tag" x="50" y="160" font-size="20" fill="#e6ebff">AI Engineer  ·  Full-Stack Developer  ·  Founder</text>
+<text class="b sub" x="50" y="190" font-size="15" fill="#8a95b8">RAG pipelines · agentic workflows · Next.js + FastAPI<tspan class="cur" fill="#4f8cff"> ▍</tspan></text>
+
+</svg>

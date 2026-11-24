@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Contributions per month">
+<title>Contributions per month</title>
+<style>
+
+.d { font-family:'Display', Georgia, 'Times New Roman', serif; }
+.b { font-family:'Body', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+
+@keyframes fadeUp { from { opacity:0; transform:translateY(10px) } to { opacity:1; transform:none } }
+@keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
+@keyframes grow   { from { transform:scaleY(0) } to { transform:scaleY(1) } }
+@keyframes pop    { from { opacity:0; transform:scale(.4) } to { opacity:1; transform:none } }
+@keyframes blink  { 50% { opacity:0 } }
+@keyframes draw   { to { stroke-dashoffset:0 } }
+
+.title { animation: fadeIn .5s ease-out .2s both; }
+.bar { transform-box:fill-box; transform-origin:bottom; animation: grow .7s cubic-bezier(.2,.8,.2,1) both; }
+.v   { animation: fadeIn .4s ease-out both; }
+
+@media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
+</style>
+
+<defs><linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#9ad0ff"/><stop offset="1" stop-color="#4f8cff"/>
+</linearGradient></defs>
+<rect x="0.5" y="0.5" width="899" height="219" rx="16" fill="#111833" stroke="#1f2a4d"/>
+<text class="b title" x="40" y="30" font-size="14" fill="#e6ebff">Contributions per month</text>
+<line x1="40" y1="180" x2="870" y2="180" stroke="#1f2a4d"/>
+<rect class="bar" style="animation-delay:0.40s" x="55.2" y="90.7" width="38.7" height="89.3" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:0.90s" x="74.6" y="83.7" font-size="11" fill="#9ad0ff" text-anchor="middle">125</text><text class="b" x="74.6" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Dec</text><rect class="bar" style="animation-delay:0.47s" x="124.4" y="83.6" width="38.7" height="96.4" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:0.97s" x="143.8" y="76.6" font-size="11" fill="#9ad0ff" text-anchor="middle">135</text><text class="b" x="143.8" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Jan</text><rect class="bar" style="animation-delay:0.54s" x="193.6" y="114.3" width="38.7" height="65.7" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.04s" x="212.9" y="107.3" font-size="11" fill="#9ad0ff" text-anchor="middle">92</text><text class="b" x="212.9" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Feb</text><rect class="bar" style="animation-delay:0.61s" x="262.7" y="97.9" width="38.7" height="82.1" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.11s" x="282.1" y="90.9" font-size="11" fill="#9ad0ff" text-anchor="middle">115</text><text class="b" x="282.1" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Mar</text><rect class="bar" style="animation-delay:0.68s" x="331.9" y="97.9" width="38.7" height="82.1" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.18s" x="351.2" y="90.9" font-size="11" fill="#9ad0ff" text-anchor="middle">115</text><text class="b" x="351.2" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Apr</text><rect class="bar" style="animation-delay:0.75s" x="401.1" y="67.1" width="38.7" height="112.9" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.25s" x="420.4" y="60.1" font-size="11" fill="#9ad0ff" text-anchor="middle">158</text><text class="b" x="420.4" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">May</text><rect class="bar" style="animation-delay:0.82s" x="470.2" y="89.3" width="38.7" height="90.7" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.32s" x="489.6" y="82.3" font-size="11" fill="#9ad0ff" text-anchor="middle">127</text><text class="b" x="489.6" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Jun</text><rect class="bar" style="animation-delay:0.89s" x="539.4" y="70.0" width="38.7" height="110.0" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.39s" x="558.8" y="63.0" font-size="11" fill="#9ad0ff" text-anchor="middle">154</text><text class="b" x="558.8" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Jul</text><rect class="bar" style="animation-delay:0.96s" x="608.6" y="107.1" width="38.7" height="72.9" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.46s" x="627.9" y="100.1" font-size="11" fill="#9ad0ff" text-anchor="middle">102</text><text class="b" x="627.9" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Aug</text><rect class="bar" style="animation-delay:1.03s" x="677.7" y="95.7" width="38.7" height="84.3" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.53s" x="697.1" y="88.7" font-size="11" fill="#9ad0ff" text-anchor="middle">118</text><text class="b" x="697.1" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Sep</text><rect class="bar" style="animation-delay:1.10s" x="746.9" y="50.0" width="38.7" height="130.0" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.60s" x="766.3" y="43.0" font-size="11" fill="#9ad0ff" text-anchor="middle">182</text><text class="b" x="766.3" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Oct</text><rect class="bar" style="animation-delay:1.17s" x="816.1" y="128.6" width="38.7" height="51.4" rx="5" fill="url(#bar)"/><text class="b v" style="animation-delay:1.67s" x="835.4" y="121.6" font-size="11" fill="#9ad0ff" text-anchor="middle">72</text><text class="b" x="835.4" y="200" font-size="11" fill="#8a95b8" text-anchor="middle">Nov</text>
+
+</svg>

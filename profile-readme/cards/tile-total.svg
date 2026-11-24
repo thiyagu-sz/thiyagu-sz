@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="140" viewBox="0 0 290 140" role="img" aria-label="Contributions: 1524 in the last 12 months">
+<title>Contributions: 1524 in the last 12 months</title>
+<style>
+
+.d { font-family:'Display', Georgia, 'Times New Roman', serif; }
+.b { font-family:'Body', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+
+@keyframes fadeUp { from { opacity:0; transform:translateY(10px) } to { opacity:1; transform:none } }
+@keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
+@keyframes grow   { from { transform:scaleY(0) } to { transform:scaleY(1) } }
+@keyframes pop    { from { opacity:0; transform:scale(.4) } to { opacity:1; transform:none } }
+@keyframes blink  { 50% { opacity:0 } }
+@keyframes draw   { to { stroke-dashoffset:0 } }
+.tile { animation: fadeUp .6s ease-out 0.3s both; }
+@media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
+</style>
+
+<g class="tile">
+<rect x="0.5" y="0.5" width="289" height="139" rx="16" fill="#111833" stroke="#1f2a4d"/>
+<text class="b" x="24" y="40" font-size="14" fill="#8a95b8" letter-spacing="1.5">CONTRIBUTIONS</text>
+<text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">240<set attributeName="visibility" to="visible" begin="0.500s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">454<set attributeName="visibility" to="visible" begin="0.550s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">642<set attributeName="visibility" to="visible" begin="0.600s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">807<set attributeName="visibility" to="visible" begin="0.650s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">950<set attributeName="visibility" to="visible" begin="0.700s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,072<set attributeName="visibility" to="visible" begin="0.750s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,176<set attributeName="visibility" to="visible" begin="0.800s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,263<set attributeName="visibility" to="visible" begin="0.850s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,334<set attributeName="visibility" to="visible" begin="0.900s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,390<set attributeName="visibility" to="visible" begin="0.950s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,434<set attributeName="visibility" to="visible" begin="1.000s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,468<set attributeName="visibility" to="visible" begin="1.050s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,491<set attributeName="visibility" to="visible" begin="1.100s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,507<set attributeName="visibility" to="visible" begin="1.150s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,517<set attributeName="visibility" to="visible" begin="1.200s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,522<set attributeName="visibility" to="visible" begin="1.250s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,524<set attributeName="visibility" to="visible" begin="1.300s" dur="0.050s"/></text><text x="24" y="96" class="d" font-size="48" fill="#e6ebff" visibility="hidden">1,524<set attributeName="visibility" to="visible" begin="1.350s" fill="freeze"/></text>
+<text class="b" x="24" y="122" font-size="13" fill="#9ad0ff">in the last 12 months</text>
+</g>
+</svg>
