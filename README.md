@@ -1,7 +1,7 @@
 <!-- Profile README for github.com/thiyagu-sz. The SVG cards are regenerated daily by .github/workflows/readme-cards.yml -->
 
 <p align="center">
-  <a href="https://thiyagu-portfolio.me">
+  <a href="https://www.thiyagudev.online/">
     <img src="cards/hero.svg" width="100%" alt="Hi, I'm Thiyagu: AI Engineer, Full-Stack Developer and Founder working on RAG pipelines, agentic workflows, Next.js and FastAPI" />
   </a>
 </p>
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://thiyagu-portfolio.me">Portfolio</a> ·
+  <a href="https://www.thiyagudev.online/">Portfolio</a> ·
   <a href="https://linkedin.com/in/thiyaguai">LinkedIn</a> ·
   <a href="mailto:thiyaguai2004@gmail.com">Email</a>
 </p>
