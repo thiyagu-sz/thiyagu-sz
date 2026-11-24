@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="t">
-<title id="t">Contributions per month, last 12 months: Dec 8, Jan 45, Feb 25, Mar 74, Apr 36, May 30, Jun 23, Jul 51, Aug 34, Sep 24, Oct 197, Nov 89</title>
+<title id="t">Contributions per month, last 12 months: Dec 8, Jan 45, Feb 25, Mar 74, Apr 36, May 30, Jun 23, Jul 51, Aug 34, Sep 24, Oct 197, Nov 90</title>
 <style>
 .d{font-family:'Display', 'DM Serif Display', Georgia, 'Times New Roman', serif}
 .b{font-family:'Body', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
@@ -49,7 +49,7 @@
 <rect class="bar" style="animation-delay:1.70s" x="746.9" y="62.0" width="38.7" height="114.0" rx="5" fill="url(#bar)"><title>197 in Oct 2026</title></rect>
 <text class="b v" style="animation-delay:2.00s" x="766.3" y="55.0" font-size="12" font-weight="600" fill="#9ad0ff" text-anchor="middle">197</text>
 <text class="b lbl" x="766.3" y="198" font-size="11" fill="#8a95b8" text-anchor="middle">Oct</text>
-<rect class="bar" style="animation-delay:1.77s" x="816.1" y="124.5" width="38.7" height="51.5" rx="5" fill="url(#bar)"><title>89 in Nov 2026</title></rect>
-<text class="b v" style="animation-delay:2.07s" x="835.4" y="117.5" font-size="12" font-weight="600" fill="#9ad0ff" text-anchor="middle">89</text>
+<rect class="bar" style="animation-delay:1.77s" x="816.1" y="123.9" width="38.7" height="52.1" rx="5" fill="url(#bar)"><title>90 in Nov 2026</title></rect>
+<text class="b v" style="animation-delay:2.07s" x="835.4" y="116.9" font-size="12" font-weight="600" fill="#9ad0ff" text-anchor="middle">90</text>
 <text class="b lbl" x="835.4" y="198" font-size="11" fill="#8a95b8" text-anchor="middle">Nov</text>
 </svg>
